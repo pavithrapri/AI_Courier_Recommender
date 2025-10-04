@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 class DataProcessor:
     def __init__(self):
-        self.data_path = "data/Data.xlsx"
+        self.data_path = "data/DispatchesFR.xlsx"
         self.processed_data_path = "data/processed_data.csv"
         
     def load_data(self):
