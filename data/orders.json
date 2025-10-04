@@ -1,0 +1,1936 @@
+[
+  {
+    "id": 1,
+    "tracking_number": "CB000001",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "uk",
+      "city": "uk",
+      "postcode": "638314",
+      "country": "Germany"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 10,
+    "product_weight": 4.9,
+    "delivery_urgency": "Standard",
+    "package_value": 0.99,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T14:51:11.547492",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 2,
+    "tracking_number": "CB000002",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "uk",
+      "city": "uk",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Austria",
+    "product_name": "bag",
+    "product_quantity": 15,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5650548070034965,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T15:45:02.450029",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 3,
+    "tracking_number": "CB000003",
+    "customer_name": "priya",
+    "customer_email": "priya@gmail.com",
+    "customer_phone": "7658945768",
+    "delivery_address": {
+      "street": "s",
+      "city": "s",
+      "postcode": "638314",
+      "country": "Switzerland"
+    },
+    "sender_country": "Switzerland",
+    "product_name": "bag",
+    "product_quantity": 20,
+    "product_weight": 10.0,
+    "delivery_urgency": "Standard",
+    "package_value": 50.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.7625474744631782,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "dispatched",
+    "courier": "DPD DE",
+    "created_at": "2025-09-26T15:46:53.206761",
+    "dispatched_at": "2025-09-26T15:50:03.705620",
+    "delivered_at": null
+  },
+  {
+    "id": 4,
+    "tracking_number": "CB000004",
+    "customer_name": "nishanth",
+    "customer_email": "nishanth@gmail.com",
+    "customer_phone": "768590485",
+    "delivery_address": {
+      "street": "germany",
+      "city": "g",
+      "postcode": "5678",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 50,
+    "product_weight": 30.0,
+    "delivery_urgency": "Standard",
+    "package_value": 100.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5653130950906828,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T15:52:52.083215",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 5,
+    "tracking_number": "CB000005",
+    "customer_name": "selvi",
+    "customer_email": "selvi@gmail.com",
+    "customer_phone": "8765689875",
+    "delivery_address": {
+      "street": "g",
+      "city": "g",
+      "postcode": "765",
+      "country": "United Kingdom"
+    },
+    "sender_country": "Austria",
+    "product_name": "bag",
+    "product_quantity": 40,
+    "product_weight": 20.0,
+    "delivery_urgency": "Standard",
+    "package_value": 50.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5653130950906828,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5653130950906828
+      ],
+      [
+        "GLS",
+        0.32772906344742564
+      ],
+      [
+        "DHLDE",
+        0.10601326807091198
+      ],
+      [
+        "ParcelForce",
+        0.0009445733909805011
+      ],
+      [
+        "DHLUK",
+        0.0
+      ],
+      [
+        "Fedex DE",
+        0.0
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T16:22:59.513371",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 6,
+    "tracking_number": "CB000006",
+    "customer_name": "mohan",
+    "customer_email": "mohan@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "i",
+      "city": "i",
+      "postcode": "i",
+      "country": "Spain"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 15,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 3.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5188641156018313,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5188641156018313
+      ],
+      [
+        "GLS",
+        0.2960987650963202
+      ],
+      [
+        "DHLDE",
+        0.11903622069068388
+      ],
+      [
+        "ParcelForce",
+        0.03355409473765619
+      ],
+      [
+        "Fedex DE",
+        0.027517257375408694
+      ],
+      [
+        "DHLUK",
+        0.004929546498099595
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T16:26:03.623022",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 7,
+    "tracking_number": "CB000007",
+    "customer_name": "thangamani",
+    "customer_email": "thangamani@gmail.com",
+    "customer_phone": "87665897768",
+    "delivery_address": {
+      "street": "france",
+      "city": "france",
+      "postcode": "6789",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 10,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 5.0,
+    "is_pallet": true,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5228855062395099,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5228855062395099
+      ],
+      [
+        "GLS",
+        0.3030619547070511
+      ],
+      [
+        "DHLDE",
+        0.10805164044227433
+      ],
+      [
+        "ParcelForce",
+        0.03355409473765619
+      ],
+      [
+        "Fedex DE",
+        0.027517257375408694
+      ],
+      [
+        "DHLUK",
+        0.004929546498099595
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T16:27:34.997437",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 8,
+    "tracking_number": "CB000008",
+    "customer_name": "palanisamy",
+    "customer_email": "palanisamy@gmailc.om",
+    "customer_phone": "8768905670",
+    "delivery_address": {
+      "street": "fr",
+      "city": "fr",
+      "postcode": "5678",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 100,
+    "product_weight": 50.0,
+    "delivery_urgency": "Standard",
+    "package_value": 50.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5403089133010326,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5403089133010326
+      ],
+      [
+        "GLS",
+        0.28566483694042416
+      ],
+      [
+        "DHLDE",
+        0.10802535114737853
+      ],
+      [
+        "ParcelForce",
+        0.03355409473765619
+      ],
+      [
+        "Fedex DE",
+        0.027517257375408694
+      ],
+      [
+        "DHLUK",
+        0.004929546498099595
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T16:29:52.790932",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 9,
+    "tracking_number": "CB000009",
+    "customer_name": "riyans",
+    "customer_email": "riyans@gmaiil.com",
+    "customer_phone": "6578909876",
+    "delivery_address": {
+      "street": "i",
+      "city": "u",
+      "postcode": "8767",
+      "country": "Italy"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 20,
+    "product_weight": 10.0,
+    "delivery_urgency": "Standard",
+    "package_value": 100.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T17:11:41.536552",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 10,
+    "tracking_number": "CB000010",
+    "customer_name": "pranesh",
+    "customer_email": "pranesh@gmail.com",
+    "customer_phone": "8756789098",
+    "delivery_address": {
+      "street": "j",
+      "city": "h",
+      "postcode": "76",
+      "country": "United Kingdom"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 50,
+    "product_weight": 25.0,
+    "delivery_urgency": "Standard",
+    "package_value": 25.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T17:24:22.786402",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 11,
+    "tracking_number": "CB000011",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "Erode",
+      "city": "erode",
+      "postcode": "638314",
+      "country": "Germany"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 10,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 5.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T17:26:04.590639",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 12,
+    "tracking_number": "CB000012",
+    "customer_name": "Pavithra Palanisamy",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "erode",
+      "postcode": "638314",
+      "country": "Germany"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 10,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 5.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5148071844532137,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5148071844532137
+      ],
+      [
+        "GLS",
+        0.3599223746891765
+      ],
+      [
+        "ParcelForce",
+        0.055092594022518086
+      ],
+      [
+        "Fedex DE",
+        0.04427824648709456
+      ],
+      [
+        "DHLUK",
+        0.01638767334238717
+      ],
+      [
+        "DHLDE",
+        0.009511927005609684
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-26T17:31:48.328892",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 13,
+    "tracking_number": "CB000013",
+    "customer_name": "indumathi",
+    "customer_email": "indumathi@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "q",
+      "city": "q",
+      "postcode": "638314",
+      "country": "Netherlands"
+    },
+    "sender_country": "Spain",
+    "product_name": "cotton bag",
+    "product_quantity": 10,
+    "product_weight": 5.0,
+    "delivery_urgency": "Standard",
+    "package_value": 4.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5228855062395099,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5228855062395099
+      ],
+      [
+        "GLS",
+        0.3030619547070511
+      ],
+      [
+        "DHLDE",
+        0.10805164044227433
+      ],
+      [
+        "ParcelForce",
+        0.03355409473765619
+      ],
+      [
+        "Fedex DE",
+        0.027517257375408694
+      ],
+      [
+        "DHLUK",
+        0.004929546498099595
+      ]
+    ],
+    "status": "dispatched",
+    "courier": "DPD DE",
+    "created_at": "2025-09-27T15:54:05.843280",
+    "dispatched_at": "2025-09-27T15:54:36.123360",
+    "delivered_at": null
+  },
+  {
+    "id": 14,
+    "tracking_number": "CB000014",
+    "customer_name": "pavi",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "q",
+      "city": "r",
+      "postcode": "638314",
+      "country": "Italy"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 20,
+    "product_weight": 10.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10.0,
+    "is_pallet": true,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.573506264706393,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.573506264706393
+      ],
+      [
+        "GLS",
+        0.3195358938317156
+      ],
+      [
+        "DHLDE",
+        0.10601326807091198
+      ],
+      [
+        "ParcelForce",
+        0.0009445733909805011
+      ],
+      [
+        "DHLUK",
+        0.0
+      ],
+      [
+        "Fedex DE",
+        0.0
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-27T15:56:50.120577",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 15,
+    "tracking_number": "CB000015",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "i",
+      "city": "j",
+      "postcode": "638314",
+      "country": "Switzerland"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 14,
+    "product_weight": 4.9,
+    "delivery_urgency": "Standard",
+    "package_value": 0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.7473803309480271,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.7473803309480271
+      ],
+      [
+        "GLS",
+        0.17986442873290603
+      ],
+      [
+        "DHLDE",
+        0.07181066692808741
+      ],
+      [
+        "ParcelForce",
+        0.0009445733909805011
+      ],
+      [
+        "DHLUK",
+        0.0
+      ],
+      [
+        "Fedex DE",
+        0.0
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T14:43:11.926122",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 16,
+    "tracking_number": "CB000016",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "i",
+      "city": "j",
+      "postcode": "638314",
+      "country": "Denmark"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 19,
+    "product_weight": 8.9,
+    "delivery_urgency": "Standard",
+    "package_value": 9.86,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5431965202109704,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.5431965202109704
+      ],
+      [
+        "GLS",
+        0.2512204615915856
+      ],
+      [
+        "DHLDE",
+        0.11769575253944996
+      ],
+      [
+        "ParcelForce",
+        0.05072699561539254
+      ],
+      [
+        "Fedex DE",
+        0.03137276921229097
+      ],
+      [
+        "DHLUK",
+        0.00578750083030993
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T14:51:31.568597",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 17,
+    "tracking_number": "CB000017",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "Spain"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 9,
+    "product_weight": 4.9,
+    "delivery_urgency": "Standard",
+    "package_value": 99.99,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.49825676283725956,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.49825676283725956
+      ],
+      [
+        "GLS",
+        0.2992904503363351
+      ],
+      [
+        "DHLDE",
+        0.11741384646857901
+      ],
+      [
+        "ParcelForce",
+        0.04787867031522501
+      ],
+      [
+        "Fedex DE",
+        0.03137276921229097
+      ],
+      [
+        "DHLUK",
+        0.00578750083030993
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T14:54:21.972493",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 18,
+    "tracking_number": "CB000018",
+    "customer_name": "priya",
+    "customer_email": "priya@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "n",
+      "city": "n",
+      "postcode": "638314",
+      "country": "Netherlands"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 20,
+    "product_weight": 10.0,
+    "delivery_urgency": "Standard",
+    "package_value": 200.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.519672603560196,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.519672603560196
+      ],
+      [
+        "GLS",
+        0.3006340152898491
+      ],
+      [
+        "DHLDE",
+        0.08459586766558441
+      ],
+      [
+        "Fedex DE",
+        0.04616173005475598
+      ],
+      [
+        "ParcelForce",
+        0.044715785923986937
+      ],
+      [
+        "DHLUK",
+        0.004219997505627145
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T15:24:14.171112",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 19,
+    "tracking_number": "CB000019",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "e",
+      "city": "a",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 50,
+    "product_weight": 100.0,
+    "delivery_urgency": "Standard",
+    "package_value": 5000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T16:40:58.671480",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 20,
+    "tracking_number": "CB000020",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Belgium"
+    },
+    "sender_country": "United Kingdom",
+    "product_name": "cotton bag",
+    "product_quantity": 100,
+    "product_weight": 200.0,
+    "delivery_urgency": "Standard",
+    "package_value": 3000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T16:42:00.151311",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 21,
+    "tracking_number": "CB000021",
+    "customer_name": "pranesh",
+    "customer_email": "nishanth@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Germany"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 50,
+    "product_weight": 100.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T16:49:39.945713",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 22,
+    "tracking_number": "CB000022",
+    "customer_name": "nishanth",
+    "customer_email": "nishanth@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Spain"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 50,
+    "product_weight": 100.0,
+    "delivery_urgency": "Standard",
+    "package_value": 1000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T16:55:55.424323",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 23,
+    "tracking_number": "CB000023",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Luxembourg"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 20,
+    "product_weight": 50.0,
+    "delivery_urgency": "Standard",
+    "package_value": 30000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T17:07:24.568123",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 24,
+    "tracking_number": "CB000024",
+    "customer_name": "mani",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "United Kingdom"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 98,
+    "product_weight": 149.9,
+    "delivery_urgency": "Standard",
+    "package_value": 9999.99,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.6109388376644562,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.6109388376644563
+      ],
+      [
+        "GLS",
+        0.25485290880758155
+      ],
+      [
+        "DHLDE",
+        0.10428793569560404
+      ],
+      [
+        "ParcelForce",
+        0.01589192606161219
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T17:11:48.110097",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 25,
+    "tracking_number": "CB000025",
+    "customer_name": "selvi",
+    "customer_email": "selvi@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 100,
+    "product_weight": 500.0,
+    "delivery_urgency": "Standard",
+    "package_value": 70000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.75,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.35
+      ],
+      [
+        "DHLDE",
+        0.15
+      ],
+      [
+        "ParcelForce",
+        0.08
+      ],
+      [
+        "Fedex DE",
+        0.02
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T17:59:35.966739",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 26,
+    "tracking_number": "CB000026",
+    "customer_name": "riyans",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 600,
+    "product_weight": 900.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.6109388376644563,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.6109388376644563
+      ],
+      [
+        "GLS",
+        0.2548529088075816
+      ],
+      [
+        "DHLDE",
+        0.10428793569560404
+      ],
+      [
+        "ParcelForce",
+        0.01589192606161219
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-29T18:10:08.688909",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 27,
+    "tracking_number": "CB000027",
+    "customer_name": "Pavithra Palanisamy",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "erode",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "United Kingdom",
+    "product_name": "bag",
+    "product_quantity": 100,
+    "product_weight": 150.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.6109388376644563,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.6109388376644562
+      ],
+      [
+        "GLS",
+        0.2548529088075816
+      ],
+      [
+        "DHLDE",
+        0.10428793569560404
+      ],
+      [
+        "ParcelForce",
+        0.01589192606161219
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-30T15:24:11.895901",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 28,
+    "tracking_number": "CB000028",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 1,
+    "product_weight": 3.9,
+    "delivery_urgency": "Standard",
+    "package_value": 399.99,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.4938969659145996,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4938969659145996
+      ],
+      [
+        "GLS",
+        0.3669435508606501
+      ],
+      [
+        "DHLDE",
+        0.11423822199753213
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "ParcelForce",
+        0.010892869456472155
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-09-30T16:06:11.359314",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 29,
+    "tracking_number": "CB000029",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "Luxembourg"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 100,
+    "product_weight": 199.9,
+    "delivery_urgency": "Standard",
+    "package_value": 10000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.3
+      ],
+      [
+        "DHLDE",
+        0.2
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T12:21:59.339898",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 30,
+    "tracking_number": "CB000030",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 49,
+    "product_weight": 19.9,
+    "delivery_urgency": "Standard",
+    "package_value": 199.99,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4
+      ],
+      [
+        "GLS",
+        0.3
+      ],
+      [
+        "DHLDE",
+        0.2
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T12:23:06.250703",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 31,
+    "tracking_number": "CB000031",
+    "customer_name": "nishanth",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "Pallipalayam",
+      "city": "Anthiyur",
+      "postcode": "638314",
+      "country": "Switzerland"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 148,
+    "product_weight": 200.0,
+    "delivery_urgency": "Standard",
+    "package_value": 9999.86,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.76083361052554,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.76083361052554
+      ],
+      [
+        "GLS",
+        0.17350654912549981
+      ],
+      [
+        "DHLDE",
+        0.03950433839364949
+      ],
+      [
+        "ParcelForce",
+        0.012127110184565158
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T12:30:53.108580",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 32,
+    "tracking_number": "CB000032",
+    "customer_name": "pranesh",
+    "customer_email": "pranesh@gmail.com",
+    "customer_phone": "768590987",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 99,
+    "product_weight": 499.0,
+    "delivery_urgency": "Standard",
+    "package_value": 999.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.500308694159922,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.500308694159922
+      ],
+      [
+        "GLS",
+        0.3199979246901231
+      ],
+      [
+        "DHLDE",
+        0.08459586766558441
+      ],
+      [
+        "Fedex DE",
+        0.04616173005475598
+      ],
+      [
+        "ParcelForce",
+        0.044715785923986937
+      ],
+      [
+        "DHLUK",
+        0.004219997505627145
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T12:33:45.408737",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 33,
+    "tracking_number": "CB000033",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Spain"
+    },
+    "sender_country": "United Kingdom",
+    "product_name": "bag",
+    "product_quantity": 25,
+    "product_weight": 50.0,
+    "delivery_urgency": "Standard",
+    "package_value": 750.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.48732064958655935,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.48732064958655935
+      ],
+      [
+        "GLS",
+        0.32112997273770105
+      ],
+      [
+        "DHLDE",
+        0.09645186419136899
+      ],
+      [
+        "Fedex DE",
+        0.04616173005475598
+      ],
+      [
+        "ParcelForce",
+        0.044715785923986937
+      ],
+      [
+        "DHLUK",
+        0.004219997505627145
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T14:16:54.825027",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 34,
+    "tracking_number": "CB000034",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Belgium"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 100,
+    "product_weight": 200.0,
+    "delivery_urgency": "Standard",
+    "package_value": 10000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.6323522703919278,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.6323522703919278
+      ],
+      [
+        "GLS",
+        0.24863703683132557
+      ],
+      [
+        "DHLDE",
+        0.08909037494438929
+      ],
+      [
+        "ParcelForce",
+        0.01589192606161219
+      ],
+      [
+        "Fedex DE",
+        0.011404358341191712
+      ],
+      [
+        "DHLUK",
+        0.002624033429553839
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T14:21:13.300865",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 35,
+    "tracking_number": "CB000035",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "United Kingdom",
+    "product_name": "bag",
+    "product_quantity": 1,
+    "product_weight": 4.6,
+    "delivery_urgency": "Standard",
+    "package_value": 120.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.43821608416242136,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.4382160841624213
+      ],
+      [
+        "GLS",
+        0.36238480433503284
+      ],
+      [
+        "DHLDE",
+        0.09586935260638167
+      ],
+      [
+        "Fedex DE",
+        0.05608999783095677
+      ],
+      [
+        "ParcelForce",
+        0.04321976355957943
+      ],
+      [
+        "DHLUK",
+        0.004219997505627145
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T14:48:11.081487",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 36,
+    "tracking_number": "CB000036",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 10000,
+    "product_weight": 50000.0,
+    "delivery_urgency": "Standard",
+    "package_value": 100000.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DHLUK",
+    "courier_confidence": 0.596831807913807,
+    "courier_options": [
+      [
+        "DHLUK",
+        0.596831807913807
+      ],
+      [
+        "DPD DE",
+        0.15485518014353722
+      ],
+      [
+        "GLS",
+        0.12811183128874548
+      ],
+      [
+        "DHLDE",
+        0.09089833702776386
+      ],
+      [
+        "Fedex DE",
+        0.027629517909707385
+      ],
+      [
+        "ParcelForce",
+        0.00167332571643792
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T15:09:05.365938",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 37,
+    "tracking_number": "CB000037",
+    "customer_name": "priya",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "Belgium"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 5000,
+    "product_weight": 1000.0,
+    "delivery_urgency": "Standard",
+    "package_value": 500.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DHLUK",
+    "courier_confidence": 0.455,
+    "courier_options": [
+      [
+        "DHLUK",
+        0.455
+      ],
+      [
+        "DPD DE",
+        0.3170760414358771
+      ],
+      [
+        "GLS",
+        0.17223451360204664
+      ],
+      [
+        "DHLDE",
+        0.05336156559904775
+      ],
+      [
+        "Fedex DE",
+        0.0023278793630270617
+      ],
+      [
+        "ParcelForce",
+        0.0
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T15:11:25.445790",
+    "dispatched_at": null,
+    "delivered_at": null
+  },
+  {
+    "id": 38,
+    "tracking_number": "CB000038",
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithra@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "erode",
+      "city": "anthiyur",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "Germany",
+    "product_name": "bag",
+    "product_quantity": 1000,
+    "product_weight": 15.0,
+    "delivery_urgency": "Standard",
+    "package_value": 30.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "courier_recommendation": "DPD DE",
+    "courier_confidence": 0.2929774989920572,
+    "courier_options": [
+      [
+        "DPD DE",
+        0.2929774989920572
+      ],
+      [
+        "DHLUK",
+        0.28724038619624087
+      ],
+      [
+        "GLS",
+        0.23109242324395976
+      ],
+      [
+        "DHLDE",
+        0.13040789012770954
+      ],
+      [
+        "Fedex DE",
+        0.03620492226791371
+      ],
+      [
+        "ParcelForce",
+        0.022076879172117706
+      ]
+    ],
+    "status": "pending",
+    "courier": null,
+    "created_at": "2025-10-03T17:49:13.260208",
+    "dispatched_at": null,
+    "delivered_at": null
+  }
+]

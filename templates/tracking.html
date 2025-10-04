@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="tracking-container">
+    <h2>Track Your Order</h2>
+    
+    <form method="POST" class="tracking-form">
+        <div class="form-group">
+            <label for="tracking_number">Enter Tracking Number</label>
+            <input type="text" id="tracking_number" name="tracking_number" 
+                   placeholder="e.g., CB123456" required
+                   {% if tracking_number %}value="{{ tracking_number }}"{% endif %}>
+        </div>
+        <button type="submit" class="btn btn-primary">Track Order</button>
+    </form>
+    
+    {% if found is not none %}
+        {% if found %}
+            <div class="tracking-result">
+                <h3>Order Status: {{ order.status|title }}</h3>
+                
+                <div class="order-details">
+                    <p><strong>Order ID:</strong> #{{ order.id }}</p>
+                    <p><strong>Tracking Number:</strong> {{ order.tracking_number }}</p>
+                    <p><strong>Product:</strong> {{ order.product_name }} (x{{ order.product_quantity }})</p>
+                    <p><strong>Destination:</strong> {{ order.delivery_address.city }}, {{ order.delivery_address.country }}</p>
+                    
+                    {% if order.courier %}
+                    <p><strong>Courier:</strong> {{ order.courier }}</p>
+                    {% endif %}
+                </div>
+                
+                <div class="status-timeline">
+                    <div class="status-step {% if order.status != 'pending' %}completed{% endif %}">
+                        <span class="step-number">1</span>
+                        <span class="step-label">Order Received</span>
+                        <span class="step-date">{{ order.created_at|datetimeformat }}</span>
+                    </div>
+                    
+                    <div class="status-step {% if order.status in ['dispatched', 'delivered'] %}completed{% endif %}">
+                        <span class="step-number">2</span>
+                        <span class="step-label">Dispatched</span>
+                        {% if order.dispatched_at %}
+                        <span class="step-date">{{ order.dispatched_at|datetimeformat }}</span>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="status-step {% if order.status == 'delivered' %}completed{% endif %}">
+                        <span class="step-number">3</span>
+                        <span class="step-label">Delivered</span>
+                        {% if order.delivered_at %}
+                        <span class="step-date">{{ order.delivered_at|datetimeformat }}</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="tracking-error">
+                <p>No order found with tracking number: {{ tracking_number }}</p>
+                <p>Please check your tracking number and try again.</p>
+            </div>
+        {% endif %}
+    {% endif %}
+</div>
+
+<!-- Add a custom filter for datetime formatting -->
+<script>
+    // Simple client-side datetime formatting
+    document.addEventListener('DOMContentLoaded', function() {
+        const dates = document.querySelectorAll('.step-date');
+        dates.forEach(dateEl => {
+            if (dateEl.textContent) {
+                const date = new Date(dateEl.textContent);
+                dateEl.textContent = date.toLocaleString();
+            }
+        });
+    });
+</script>
+{% endblock %}

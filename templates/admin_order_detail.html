@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="admin-order-detail">
+    <h2>Order #{{ order.id }} Details</h2>
+    
+    <div class="order-detail-card">
+        <h3>Customer Information</h3>
+        <p><strong>Name:</strong> {{ order.customer_name }}</p>
+        <p><strong>Email:</strong> {{ order.customer_email }}</p>
+        {% if order.customer_phone %}
+        <p><strong>Phone:</strong> {{ order.customer_phone }}</p>
+        {% endif %}
+    </div>
+    
+    <div class="order-detail-card">
+        <h3>Delivery Address</h3>
+        <p>{{ order.delivery_address.street }}</p>
+        <p>{{ order.delivery_address.city }}, {{ order.delivery_address.postcode }}</p>
+        <p>{{ order.delivery_address.country }}</p>
+    </div>
+    
+    <div class="order-detail-card">
+        <h3>Product Information</h3>
+        <p><strong>Product:</strong> {{ order.product_name }}</p>
+        <p><strong>Quantity:</strong> {{ order.product_quantity }}</p>
+        <p><strong>Total Weight:</strong> {{ order.product_weight }} kg</p>
+        <p><strong>Pallet:</strong> {{ 'Yes' if order.is_pallet else 'No' }}</p>
+        {% if order.special_instructions %}
+        <p><strong>Special Instructions:</strong> {{ order.special_instructions }}</p>
+        {% endif %}
+    </div>
+    
+    <div class="order-detail-card">
+        <h3>AI Courier Recommendations</h3>
+        {% if order.courier_options and order.courier_options|length > 0 %}
+            <p>The AI system has analyzed this order and recommends the following couriers:</p>
+        
+            <div class="courier-recommendations">
+                {% for courier, prob in order.courier_options %}
+                <div class="courier-option {% if courier == order.courier_recommendation %}recommended{% endif %}">
+                    <span class="courier-name">{{ courier }}</span>
+                    <span class="courier-prob">{{ (prob * 100)|round(1) }}%</span>
+                    {% if courier == order.courier_recommendation %}
+                    <span class="recommended-badge">Recommended</span>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p class="no-ai-data">⚠️ AI recommendation data not available for this order.</p>
+            <p>Using fallback courier options:</p>
+            <div class="courier-recommendations">
+                <div class="courier-option">
+                    <span class="courier-name">DPD DE</span>
+                    <span class="courier-prob">Fallback Option</span>
+                </div>
+                <div class="courier-option">
+                    <span class="courier-name">GLS</span>
+                    <span class="courier-prob">Fallback Option</span>
+                </div>
+                <div class="courier-option">
+                    <span class="courier-name">DHLDE</span>
+                    <span class="courier-prob">Fallback Option</span>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+    
+    <!-- FIXED courier selection form -->
+    <div class="order-detail-card">
+        <h3>Dispatch Order</h3>
+        <form method="POST">
+            <div class="form-group">
+                <label for="courier">Select Courier</label>
+                <select id="courier" name="courier" required>
+                    <option value="">-- Select a courier --</option>
+                    {% if order.courier_options and order.courier_options|length > 0 %}
+                        {% for courier, prob in order.courier_options %}
+                        <option value="{{ courier }}" {% if courier == order.courier_recommendation %}selected{% endif %}>
+                            {{ courier }} ({{ (prob * 100)|round(1) }}% - AI Confidence)
+                        </option>
+                        {% endfor %}
+                    {% else %}
+                        <!-- Fallback options when AI data is missing -->
+                        <option value="DPD DE" selected>DPD DE (Fallback)</option>
+                        <option value="GLS">GLS (Fallback)</option>
+                        <option value="DHLDE">DHLDE (Fallback)</option>
+                        <option value="ParcelForce">ParcelForce (Fallback)</option>
+                        <option value="Fedex DE">Fedex DE (Fallback)</option>
+                    {% endif %}
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Dispatch Order</button>
+        </form>
+    </div>
+{% endblock %}

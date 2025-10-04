@@ -1,0 +1,263 @@
+[
+  {
+    "id": 1,
+    "tracking_number": "CB432031",
+    "status": "dispatched",
+    "created_at": "2025-09-19T14:36:02.827509",
+    "courier": "DHL",
+    "courier_recommendation": "DHL",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DHL",
+        0.5
+      ],
+      [
+        "UPS",
+        0.3
+      ],
+      [
+        "FedEx",
+        0.2
+      ]
+    ],
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "UK"
+    },
+    "product_name": "bag",
+    "product_quantity": 4,
+    "product_weight": 2.9,
+    "is_pallet": false,
+    "special_instructions": "",
+    "dispatched_at": "2025-09-19T15:44:56.368141"
+  },
+  {
+    "id": 2,
+    "tracking_number": "CB968595",
+    "status": "pending",
+    "created_at": "2025-09-19T14:37:10.547257",
+    "courier": null,
+    "courier_recommendation": "DHL",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DHL",
+        0.5
+      ],
+      [
+        "UPS",
+        0.3
+      ],
+      [
+        "FedEx",
+        0.2
+      ]
+    ],
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "UK"
+    },
+    "product_name": "bag",
+    "product_quantity": 3,
+    "product_weight": 3.0,
+    "is_pallet": false,
+    "special_instructions": ""
+  },
+  {
+    "id": 3,
+    "tracking_number": "CB160176",
+    "status": "pending",
+    "created_at": "2025-09-19T15:38:44.992503",
+    "courier": null,
+    "courier_recommendation": "DHL",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DHL",
+        0.5
+      ],
+      [
+        "UPS",
+        0.3
+      ],
+      [
+        "FedEx",
+        0.2
+      ]
+    ],
+    "customer_name": "priya",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "Musterstra\u00dfe",
+      "city": "Berlin",
+      "postcode": "12345",
+      "country": "DE"
+    },
+    "product_name": "cotton bag",
+    "product_quantity": 1,
+    "product_weight": 0.1,
+    "is_pallet": false,
+    "special_instructions": ""
+  },
+  {
+    "id": 4,
+    "tracking_number": "CB754987",
+    "status": "pending",
+    "created_at": "2025-09-19T15:42:08.569617",
+    "courier": null,
+    "courier_recommendation": "DHL",
+    "courier_confidence": 0.5,
+    "courier_options": [
+      [
+        "DHL",
+        0.5
+      ],
+      [
+        "UPS",
+        0.3
+      ],
+      [
+        "FedEx",
+        0.2
+      ]
+    ],
+    "customer_name": "pranesh",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "Rue de l\u2019Exemple 12 ",
+      "city": "Gen\u00e8ve ",
+      "postcode": "1204",
+      "country": "DE"
+    },
+    "product_name": "cotton bag",
+    "product_quantity": 100,
+    "product_weight": 49.9,
+    "is_pallet": true,
+    "special_instructions": ""
+  },
+  {
+    "id": 5,
+    "tracking_number": "CB849616",
+    "status": "pending",
+    "created_at": "2025-09-22T17:39:25.790719",
+    "courier": "Pending",
+    "courier_recommendation": "Pending",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "customer_name": "mohan",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "austria",
+      "city": "au",
+      "postcode": "638314",
+      "country": "United Kingdom"
+    },
+    "sender_country": "United Kingdom",
+    "product_name": "cotton bag",
+    "product_quantity": 14,
+    "product_weight": 9.9,
+    "delivery_urgency": "Standard",
+    "package_value": 0.86,
+    "is_pallet": false,
+    "special_instructions": "",
+    "CourierServiceName": "Standard"
+  },
+  {
+    "id": 6,
+    "tracking_number": "CB838903",
+    "status": "pending",
+    "created_at": "2025-09-22T18:01:31.908602",
+    "courier": "Pending",
+    "courier_recommendation": "Pending",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "customer_name": "bharath",
+    "customer_email": "bharath@gmail.comm",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "a",
+      "city": "a",
+      "postcode": "638314",
+      "country": "France"
+    },
+    "sender_country": "France",
+    "product_name": "bag",
+    "product_quantity": 30,
+    "product_weight": 14.9,
+    "delivery_urgency": "Standard",
+    "package_value": 9.86,
+    "is_pallet": false,
+    "special_instructions": "",
+    "CourierServiceName": "Standard"
+  },
+  {
+    "id": 7,
+    "tracking_number": "CB644265",
+    "status": "pending",
+    "created_at": "2025-09-22T18:03:17.641268",
+    "courier": "Pending",
+    "courier_recommendation": "Pending",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 1,
+    "product_weight": 1.0,
+    "delivery_urgency": "Standard",
+    "package_value": 1.0,
+    "is_pallet": false,
+    "special_instructions": "",
+    "CourierServiceName": "Standard"
+  },
+  {
+    "id": 8,
+    "tracking_number": "CB830713",
+    "status": "pending",
+    "created_at": "2025-09-22T18:13:55.157745",
+    "courier": "Pending",
+    "courier_recommendation": "Pending",
+    "courier_confidence": 0.0,
+    "courier_options": [],
+    "customer_name": "Pavithra P",
+    "customer_email": "pavithrapalani1282003@gmail.com",
+    "customer_phone": "08610202474",
+    "delivery_address": {
+      "street": "144, pallipalayam",
+      "city": "Erode",
+      "postcode": "638314",
+      "country": "Austria"
+    },
+    "sender_country": "Germany",
+    "product_name": "cotton bag",
+    "product_quantity": 1,
+    "product_weight": 1.0,
+    "delivery_urgency": "Standard",
+    "package_value": 9.88,
+    "is_pallet": false,
+    "special_instructions": "",
+    "CourierServiceName": "Standard"
+  }
+]

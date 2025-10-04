@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1> Order Placed Successfully!</h1>
+    <p>Order ID: {{ order.id }}</p>
+    <p>Tracking Number: {{ order.tracking_number }}</p>
+    <p>Recommended Courier: {{ order.courier_recommendation }}</p>
+    <p>Confidence: {{ (order.courier_confidence * 100)|round }}%</p>
+
+    <a href="/">Back to Home</a>
+{% endblock %}

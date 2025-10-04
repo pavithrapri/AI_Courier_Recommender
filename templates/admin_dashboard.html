@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="admin-container">
+    <h2>Admin Dashboard</h2>
+    
+    <div class="admin-stats">
+        <div class="stat-card">
+            <h3>Pending Orders</h3>
+            <p class="stat-number">{{ pending_orders|length }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Dispatched Orders</h3>
+            <p class="stat-number">{{ dispatched_orders|length }}</p>
+        </div>
+        <div class="stat-card">
+            <h3>Delivered Orders</h3>
+            <p class="stat-number">{{ delivered_orders|length }}</p>
+        </div>
+    </div>
+    <div class="admin-section">
+        <h3>Pending Orders</h3>
+        {% if pending_orders %}
+        <table class="orders-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Destination</th>
+                    <th>Product</th>
+                    <th>AI Recommendation</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in pending_orders %}
+                <tr>
+                    <td>#{{ order.id }}</td>
+                    <td>{{ order.customer_name }}</td>
+                    <td>{{ order.delivery_address.city }}, {{ order.delivery_address.country }}</td>
+                    <td>{{ order.product_name }} (x{{ order.product_quantity }})</td>
+                    <td>
+                        {{ order.courier_recommendation }} 
+                        <span class="confidence">({{ (order.courier_confidence * 100)|round(1) }}%)</span>
+                    </td>
+                    <td>
+                        <a href="{{ url_for('admin_order_detail', order_id=order.id) }}" class="btn btn-sm btn-primary">Review</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No pending orders.</p>
+        {% endif %}
+    </div>
+    
+    <div class="admin-section">
+        <h3>Recently Dispatched Orders</h3>
+        {% if dispatched_orders %}
+        <table class="orders-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Destination</th>
+                    <th>Courier</th>
+                    <th>Dispatched</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in dispatched_orders|reverse %}
+                <tr>
+                    <td>#{{ order.id }}</td>
+                    <td>{{ order.customer_name }}</td>
+                    <td>{{ order.delivery_address.city }}, {{ order.delivery_address.country }}</td>
+                    <td>{{ order.courier }}</td>
+                    <td>{{ order.dispatched_at|datetimeformat }}</td>
+                    <td>
+                        <a href="{{ url_for('mark_delivered', order_id=order.id) }}" class="btn btn-sm btn-secondary">Mark Delivered</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No dispatched orders.</p>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Add a custom filter for datetime formatting -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const dates = document.querySelectorAll('td:nth-child(5)');
+        dates.forEach(dateEl => {
+            if (dateEl.textContent) {
+                const date = new Date(dateEl.textContent);
+                dateEl.textContent = date.toLocaleString();
+            }
+        });
+    });
+</script>
+{% endblock %}

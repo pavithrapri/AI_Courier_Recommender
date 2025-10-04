@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero">
+    <div class="hero-content">
+        <h2>AI-Powered Courier Recommendations</h2>
+        <!--<p>Optimize your shipping with our machine learning system that analyzes historical data to recommend the best courier for your orders.</p>-->
+        <div class="hero-buttons">
+            <a href="{{ url_for('order') }}" class="btn btn-primary">Place an Order</a>
+            <a href="{{ url_for('tracking') }}" class="btn btn-secondary">Track Your Order</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
